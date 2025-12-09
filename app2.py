@@ -30,7 +30,7 @@ section = st.sidebar.radio(
 # -----------------------------
 # Load dataset
 # -----------------------------
-df = pd.read_csv("E:/My education/UNI/edu uni/Semester 3/Artificial intelegence/Project/Churn_Modelling.csv")
+df = pd.read_csv("Churn_Modelling.csv")
 X = df[["CreditScore", "Age", "Balance", "EstimatedSalary"]]
 y = df["Exited"]
 
